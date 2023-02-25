@@ -1,0 +1,50 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  height: 100vh;
+}
+
+.expand {
+  flex-grow: 1;
+}
+
+.calc {
+  max-width: 360px;
+  min-width: 360px;
+  max-height: 500px;
+  min-height: 500px;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 30px;
+  padding: 0 10px;
+}
+
+.logo {
+  height: 1em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}

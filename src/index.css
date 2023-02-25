@@ -1,0 +1,11 @@
+@import url(../node_modules/bootstrap/dist/css/bootstrap.min.css);
+@import url(../node_modules/bootstrap-icons/font/bootstrap-icons.css);
+
+* {
+  font-family: GajrajOne;
+}
+
+@font-face {
+  font-family: GajrajOne;
+  src: url("assets/GajrajOne-Regular.ttf");
+}
